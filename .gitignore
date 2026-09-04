@@ -1,0 +1,30 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Generated model files (created by running main.py)
+models/*.joblib
+models/*.pkl
+
+# Generated output files (created by running main.py)
+outputs/*.png
+outputs/*.csv
+
+# Keep placeholder files
+!models/.gitkeep
+!outputs/.gitkeep
+
+# OS / IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
